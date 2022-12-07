@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 
-export const App = (props) => {
+export const App = () => {
   const [todo, setTodo] = useState("");
   const [todoTitle, setTodoTitle] = useState("");
   const [todos, setTodos] = useState([]);
@@ -65,7 +65,7 @@ export const App = (props) => {
     setTodoTitle("");
 
     let temp_todo = {
-      id: todos.length + 1,
+      id: Date.now(),
       title: todoTitle,
       todo: todo,
       isDone: false,
