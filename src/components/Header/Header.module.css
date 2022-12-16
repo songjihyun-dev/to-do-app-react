@@ -1,0 +1,8 @@
+.header {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px;
+  color: whitesmoke;
+  font-weight: 800;
+}

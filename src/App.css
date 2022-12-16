@@ -6,108 +6,10 @@
   overflow-x: hidden;
 }
 
-.title {
-  text-transform: uppercase;
-  text-align: center;
-  padding: 20px 0;
-  color: whitesmoke;
-}
-
-/* 폼 */
-.add-todo-form {
-  background-color: whitesmoke;
-  padding: 20px 0;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.add-todo-form input {
-  padding: 10px 5px;
-  width: 25%;
-}
-
-/* 투두 영역 */
-.todo-container {
+#root {
   background-color: #3b394c;
   height: 100vh;
   max-width: 1200px;
   min-width: 800px;
   margin-inline: auto;
-}
-
-.todo {
-  margin-left: 60px;
-  background-color: whitesmoke;
-  width: 100%;
-  height: 150px;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  padding: 15px;
-  box-sizing: border-box;
-  position: relative;
-}
-
-.todo-list,
-.done-todo-list {
-  padding: 20px;
-  box-sizing: border-box;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 300px);
-  justify-items: end;
-  justify-content: space-evenly;
-}
-
-.todo-state {
-  color: whitesmoke;
-  padding: 20px;
-}
-
-.todo-btns {
-  position: absolute;
-  left: 10px;
-  bottom: 10px;
-}
-.todo-btns button {
-  padding: 5px 10px;
-  margin: 0 2px;
-  color: whitesmoke;
-  border: none;
-  border-radius: 7px;
-  cursor: pointer;
-  transition: all ease-in-out 0.2s;
-}
-
-.todo-btns > button:nth-child(1) {
-  background-color: green;
-}
-
-.todo-btns button:hover {
-  color: whitesmoke;
-  background-color: #3b394c;
-}
-
-.todo-title {
-  color: #252525;
-  font-weight: 800;
-  font-size: 18px;
-  padding-bottom: 5px;
-}
-
-.add-todo-form button {
-  padding: 10px 20px;
-  border: none;
-  background-color: #3b394c;
-  color: whitesmoke;
-  border-radius: 10px;
-  transition: all ease-in-out 0.2s;
-  cursor: pointer;
-}
-
-.add-todo-form button:hover {
-  color: #3b394c;
-  background-color: whitesmoke;
-}
-
-.del-btn {
-  background-color: red;
 }

@@ -1,0 +1,12 @@
+.form {
+  background-color: whitesmoke;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.input {
+  padding: 10px 0px 10px 7px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 20rem;
+}
